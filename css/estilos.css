@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.m-llamada {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.m-llamada img {
+    cursor: pointer;
+}
+
+.user {
+    padding-bottom: 20px;
+    height: 50px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.t-marca {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.opciones>div {
+    padding: 10px;
+    color: #fff;
+}
+
+.colgar {
+    height: 30px;
+    background-color: #b32e1c;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.m-reloj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+}
+
+.m-iconos {
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+.m-iconos img {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+#ventanaModal2 {
+    width: 300px;
+    background-color: transparent;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes animarsuperior {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    top {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animarsuperior {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    top {
+        top: 0;
+        opacity: 1;
+    }
+}
